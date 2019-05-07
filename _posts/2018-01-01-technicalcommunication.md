@@ -1,19 +1,15 @@
 ---
 layout: articles
-title: Welcome
-permalink: welcome.html
+title: Technical Communication
+permalink: technicalcommunication.html
 key: articles-grid
 cover: /assets/apple-touch-icon.png
-tags: TeXt
+tags: Persuasion
+sidebar:
+  nav: docs-en
 ---
 
-If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:
-
-## （一）Chapter 1  Communicating in the Technical Workplace
-
-### Genres and the Technical Writing Process
-
-每个阶段开头字母拼在一起就是PO ID RF 规组改设修
+## （一）Chapter 1 
 
 #### 第一阶段：规划您的项目并进行初创研究
 
@@ -79,7 +75,7 @@ If you see this page, that means you have setup your site. enjoy! :ghost: :ghost
 
   仔细校对文档以消除语法问题，拼写错误，和使用错误。
 
-### 什么是技术传播？(名词解释)
+### 什么是技术传播？
 
 ​	Technical communication is a process of managing technical information in ways that allow people to take action.
 
@@ -92,18 +88,17 @@ If you see this page, that means you have setup your site. enjoy! :ghost: :ghost
 - Has Ethical, Legal, and Political Dimensions 具有伦理、法律和政治层面。
 - International and Transcultural 国际化和跨文化
 
-### 工作写作和大学写作的区别（问答题次重点）
-
+### 工作写作和大学写作的区别
 One of the major differences between workplace writing and college writing is the
 pace at which you need to work. Computer networks and smartphones have greatly
 increased the speed of the technical workplace, and they allow people to work around
 the clock. So, you need to work smarter, not harder.
 
-## （二）Chapter 2 Communicating in a Reader- Focused Way
+## （二）Chapter 2 
 
 应该确切地了解您的读取者需要知道什么，以及他们希望以何种方式呈现这些信息。然后，当你在写、说或设计你的信息时，集中精力以对他们最有用的方式给他们所需的信息。
 
-### Creating a Reader Profile的步骤（确定读者群体，识别他们的需求，价值，态度，阅读环境） （类比用户画像：用户画像又称用户角色，作为一种勾画目标用户、联系用户诉求与设计方向的有效工具）
+### Creating a Reader Profile的步骤
 
 guidelines about your readers and how they prefer to read：
 
@@ -193,7 +188,7 @@ guidelines about your readers and how they prefer to read：
 
 在读者分析和上下文分析图表中，圈出或突出显示最重要的术语、概念和短语。您圈出的项目将帮助您更好地决定文档的内容、组织、样式和设计。
 
-### Global and transcultural communication 全球与跨文化交流。（问答题次重点）
+### Global and transcultural communication 全球与跨文化交流。
 
 全球和跨文化问题将影响文档的内容、组织、样式和设计。
 
@@ -245,12 +240,170 @@ guidelines about your readers and how they prefer to read：
 
 
 
-You may want to [config the site](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration) or [writing a post](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts) next. Please feel free to [create an issue](https://github.com/kitian616/jekyll-TeXt-theme/issues) or [send me email](mailto:kitian616@outlook.com) if you have any questions.
+## （三）Chapter 13 
 
-<!--more-->
+说服就是建立别人对你、你的公司或你公司的产品和服务的信心。
 
----
+有效的技术文档通常包括基于推理和基于价值观的说服策略的混合。
 
-If you like TeXt, don't forget to give me a star. :star2:
+### Persuading with Reasoning
 
-[![Star This Project](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/kitian616/jekyll-TeXt-theme/)
+说服是用逻辑和例子来展示你的想法的力量和优点。说服有两种基本形式：
+
+#### Logical Statements
+
+使用逻辑结构的语句，例如 if . . . then, either . . . or, cause and effect, effect . . . because, costs and benefits, and better and worse
+
+#### Examples and Evidence
+
+使用真实或现实的陈述，例如：examples, prior experiences, facts, data, observations, and quotes from experts
+
+- 举例
+
+  很好的方法来澄清和支持一个复杂的想法
+
+- 经验和观察
+
+  只要读者信任，个人的经验和观察往往是有说服力的
+
+- 事实和数据
+
+  从实验和测量中得到的经验证明的事实和数据可以提供一些最有力的证据。人们通常相信观察到的事实和数字。在提及事实和数据时，请记住引用任何来源。
+
+- 专家的引用
+
+  一个被认可的权威也可以用来支持你的观点
+
+### Persuading with Values
+
+因为人们更喜欢对与他们持有相同价值观和信仰的人说“是”，基于价值观的说服可能比基于推理的说服更微妙，信心和信任大大有助于说服人们相信什么和做什么。
+
+#### Appealing to Common Goals and Ideals 呼吁共同的目标和理想
+
+使用你与读者分享的目标、需求、价值观和态度。
+
+- GOALS
+
+- Needs
+
+  Needs与Goals之间根本的区别在于，Needs是基本需求。
+
+- Shared Values
+
+  花点时间找出你的读者、你和你的公司所共有的价值观
+
+- Attitudes 
+
+  读者对你的主题、你或你的公司的态度可以很大程度上决定你的信息是否有说服力。
+
+  你可以表明你理解读者的观点。如果他们认为你理解他们对这个主题的感受，也许你的读者会给你一个机会。
+
+
+#### Framing issues from the Readers’ Perspective 读者视角下的框架性问题
+
+使用反映读者观点和价值观的单词、短语和主题
+
+- Framing
+
+  应该仔细查看您为读者开发的简档。找出一个或两个最能代表读者对这个问题的看法的单词或短语。您可以使用逻辑映射围绕这个概念开发一个框架。了解他们的框架将帮助你选择支持或加强他们观点的内容和措辞。
+
+- Reframing
+
+  读者可能无法以与您或您的公司的观点一致的方式来看待问题。在这些情况下，您可能需要“重新构建”他们的问题。找到共同价值。
+
+### Persuading Readers Online
+
+网络环境下说服别人的十种策略：
+
+- 减少选项数量
+
+  只给客户几个选择，因为有太多的选择实际上会导致他们犹豫不决，寻求一个更简单的解决方案。
+
+- 将读者添加到特定组中
+
+- 告诉人们他们以前的信念是正确的
+
+- 请读者帮忙
+
+  如果读者认为你是在请求他们以某种方式提供帮助，他们会做出更积极的回应
+
+- 承认你错了(如果你错了)
+
+  负起责任实际上会建立起读者的信任。
+
+- 用“You”指代读者
+
+- 使用“Because”这个词来使您的论点听起来合理
+
+- 押韵的短语更有说服力
+
+- 给人一种稀缺性的印象
+
+- 面对面比邮件更有效
+
+当一家公司成功地将自己与一组特定的积极价值观联系在一起时，它的书面材料将更加有效。
+
+### Persuasion in High-Context Cultures
+
+高语境的文化，包括亚洲、中东和撒哈拉以南非洲的许多文化，通常更强调社区而不是个人。这些文化也常常高度重视共识、人际和谐、等级制度和仪式。他们倾向于强调长期目标而不是短期收益。对话中没有说的话往往是非常重要的，因为来自高语境文化的人们依赖语境线索来解释说话人的意思。低语境文化的谈判者倾向于错误地认为高语境谈判者效率低下、间接、含糊和模棱两可。与此同时，来自高语境文化的谈判者，如日本、中国、韩国、印度尼西亚和非洲部分地区，往往发现他们的低语境部分，尤其是美国人，显得唐突、咄咄逼人，而且过于情绪化。
+
+与高语境文化的交互准则：
+
+- 准则1：发展长期关系
+
+  高语境的文化高度重视现有的关系和声誉。花些时间让你的读者熟悉你的公司，并解释它在这个领域的声誉。这可能会花费很长的时间。
+
+- 准则2：使用中介建立关系
+
+  寻找一个了解双方的可信中介来帮助您建立联系。
+
+- 准则3：依靠事实和推理
+
+  在高语境的文化中，直接劝说的尝试往往被视为负面的。因此，以事实为基础的陈述与坚实的推理往往是更有效的。
+
+- 准则4：避免强烈支持或反对
+
+  直接反对他人的立场可能被视为对该人的攻击。如果你不同意某人的观点，重述你想法的事实，并用推理来解释它们。
+
+- 准则5：努力达成共识
+
+  应该努力与高语境的同行达成共识。对于一方似乎比另一方受益更大的计划，他们往往会持怀疑态度。相反，如果你把你的想法说成是双方的双赢，你的想法将是最有说服力的。
+
+- 准则6：集体发言，而不是单独发言。
+
+  使用“我们”而不是“我”，不要说“这是我的观点”之类的话。相反，努力描述什么是对所有人最好的。
+
+- 准则7：耐心等待“要点”
+
+  来自低语境文化的人倾向于“切入主题”，而来自高语境文化的人通常认为这一点是显而易见的，不需要说出来。讨论或文件的要点往往会在接近尾声时到达，所以你应该耐心等待。
+
+- 准则8：记住很少使用“no”
+
+  在高语境的文化中，特别是在职业环境中，往往避免直接拒绝、拒绝和回答“不”。直接拒绝可以被认为是一种侮辱。
+
+- 准则9：不要非正式
+
+  等级制度和仪式很重要，人们期待对社会地位的尊重。在专业背景下，来自高语境文化的人们倾向于正式地称呼对方。
+
+- 准则10：服从等级制度
+
+  高语境文化倾向于高度重视等级制度和社会地位。
+
+- 准则11：尽量减少情绪
+
+  微笑在高语境文化中是受欢迎的，但明显的情感信号，如愤怒、欢笑、烦恼或困惑，通常会比在低语境文化中受到更认真的对待。
+
+### 总结 
+
+- 所有技术文件在某种程度上都是有说服力的，即使是那些严格意义上的“信息性”文件也是如此。
+- Persuasion是给人们充分的理由去做事情，同时建立他们对你和你的公司的信心。
+- 技术工作场所往往依赖基于推理的说服和基于价值观的说服。
+- 基于推理的说服依靠逻辑、实例和证据来支持观点。
+- 以价值观为基础的说服利用共同的理想、共同的价值观、共同的目标和信誉来建立和加强关系。
+- 跨文化交流可能很困难，但当听众或读者来自高语境文化时，说服尤其困难.
+
+
+
+
+
+

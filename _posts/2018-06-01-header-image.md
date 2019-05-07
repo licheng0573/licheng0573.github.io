@@ -1,6 +1,13 @@
 ---
+layout: articles
 title: Post with Header Image
+permalink: header-image.html
+key: articles-grid
+cover: /assets/apple-touch-icon.png
 tags: TeXt
+sidebar:
+  nav: docs-en
+
 article_header:
   type: cover
   image:

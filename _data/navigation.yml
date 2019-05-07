@@ -1,34 +1,40 @@
 header:
-  - titles:
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
+  # 普通内部链接型（单语言）
+  - title: Button1
     url: /archive.html
+  
+  # 普通内部链接型（多语言）
+  - titles:
+      en      : &EN       Button2
+      zh-Hans : &ZH_HANS  按键2
+    url: /about.html
 
   - titles:
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
+      en      : &EN       Button3
+      zh-Hans : &ZH_HANS  按键3
     url: /about.html
+  
+  # 普通外部链接型
+  - title: Link
+    url: https://github.com/
+
+
+docs-en:
+  - title:      Title-1
+    children:
+      - title:  Title-1-1
+        url:    /docs/en/quick-start
+      - title:  Title-1-2
+        url:    /docs/en/structure
+  - title:      Title-2
+    children:
+      - title:  Title-2-1
+        url:    /docs/en/configuration
+      - title:  Title-2-2
+        url:    /docs/en/navigation
+  - title:      Title-3
+    children:
+      - title:  Title-3-1
+        url:    /docs/en/configuration
+      - title:  Title-3-2
+        url:    /docs/en/navigation
