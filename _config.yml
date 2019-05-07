@@ -130,8 +130,8 @@ comments:
     clientID    : e7930597b47f3951fe86 # GitHub Application Client ID
     clientSecret: a5537c37fd71f577a9995ad626582d2a9f2e6867 # GitHub Application Client Secret
     repository  : licheng0573.github.io # GitHub repo
-    owner       : 20142250217 # GitHub repo owner
-    admin: [20142250217] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    owner       : licheng0573 # GitHub repo owner
+    admin: [20142250217,licheng0573] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
