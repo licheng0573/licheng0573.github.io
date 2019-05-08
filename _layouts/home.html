@@ -1,35 +1,22 @@
 ---
-layout: articles
+layout: page
 titles:
   en      : &EN       Home
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  主页
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  主頁
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       홈
-  ko-KR   : *KO
 show_title: false
-articles:
-  data_source: paginator.posts
-  article_type: BlogPosting
-  type: grid
-  show_cover: true
-  show_excerpt: true
-  show_readmore: true
-  show_info: true
 ---
-<div class="layout--home">
-  {%- include paginator.html -%}
-</div>
-<script>
-  {%- include scripts/home.js -%}
-</script>
+
+
+<div class="box"><a href="/4steps.html"><img src="/assets/startup.png" ></a>
+  <a href="/4steps.html">4 Steps to get started</a></div>
+<div class="box"><a href="/Markdown-introduction.html"><img src="/assets/markdown.png" ></a>
+  <a href="/4steps.html">Markdown introduction</a></div>
+<div class="box"><a href="/HTML-introduction.html"><img src="/assets/htmlcss.png" ></a>
+  <a href="/HTML-introduction.html">HTML, CSS, JavaScript</a></div>
+<div class="box"><a href="/authoring.html"><img src="/assets/advanced.png" ></a>
+  <a href="/authoring.html">Advanced-course for Jekyll</a></div>
+<div class="box"><a href="/mydoc-troubleshooting.html"><img src="/assets/shooting.png" ></a>
+  <a href="/mydoc-troubleshooting.html">Troubleshooting</a></div>
+
+<style>.box{float:left;width:280px;margin:2px;font-size: 18px;color: black;}.box.img{width:100%}</style>
 
 {{ content }}

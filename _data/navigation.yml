@@ -1,40 +1,61 @@
 header:
   # 普通内部链接型（单语言）
-  - title: Button1
-    url: /archive.html
-  
-  # 普通内部链接型（多语言）
-  - titles:
-      en      : &EN       Button2
-      zh-Hans : &ZH_HANS  按键2
-    url: /about.html
+  - title: Start Now!
+    url: /4steps.html
 
-  - titles:
-      en      : &EN       Button3
-      zh-Hans : &ZH_HANS  按键3
-    url: /about.html
+  - title: Jekyll
+    url: https://jekyllrb.com/
   
-  # 普通外部链接型
-  - title: Link
+  - title: GitHub
     url: https://github.com/
 
 
 docs-en:
-  - title:      Title-1
+  - title:      Getting Started
     children:
-      - title:  Title-1-1
-        url:    /docs/en/quick-start
-      - title:  Title-1-2
-        url:    /docs/en/structure
-  - title:      Title-2
+      - title:  Four steps to develop a help center with Jekyll
+        url:        /4steps.html
+
+  - title:      Markdown Introduction
     children:
-      - title:  Title-2-1
-        url:    /docs/en/configuration
-      - title:  Title-2-2
-        url:    /docs/en/navigation
-  - title:      Title-3
+      - title:  Markdown Introduction
+        url:        /Markdown-introduction.html
+
+  - title:      HTML, CSS, JavaScript
     children:
-      - title:  Title-3-1
-        url:    /docs/en/configuration
-      - title:  Title-3-2
-        url:    /docs/en/navigation
+      - title:  HTML Introduction
+        url:    /HTML-introduction.html
+
+      - title:  CSS Introduction
+        url:    /CSS-introduction.html
+
+      - title:  JavaScript Introduction
+        url:    /JavaScript-introduction.html
+
+  - title:      Troubleshooting
+    children:
+      - title:  Troubleshooting
+        url:    /mydoc-troubleshooting.html
+
+  - title:      Advanced-course for Jekyll
+    children:
+      - title:  Authoring
+        url:    /authoring.html
+
+      - title:  Navigation
+        url:    /navigation.html
+
+      - title:  Formatting
+        url:    /formatting.html
+
+      - title:  Handing Reviews
+        url:    /handing-reviews.html
+
+      - title:  Publishing
+        url:    /publishing.html
+
+      - title:  Special Layouts
+        url:    /special-layout.html
+
+  
+
