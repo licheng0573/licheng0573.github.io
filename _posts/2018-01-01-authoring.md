@@ -6,13 +6,13 @@ sidebar:
 permalink: authoring.html
 ---
 
-[**Pages**](./2018-01-01-mydoc-pages)
+[**Pages**](./mydoc-pages.html)
 
-[**Posts**](./2018-01-01-mydoc-posts)
+[**Posts**](./mydoc-posts.html)
 
-[**Lists**](./2018-01-01-mydoc-lists)
+[**Lists**](./mydoc-lists.html)
 
-[**Content reuse**](./2018-01-01-Mydoc-content-reuse)
+[**Content reuse**](./Mydoc-content-reuse.html)
 
 [**Collections**](./Mydoc-collections.html)
 
