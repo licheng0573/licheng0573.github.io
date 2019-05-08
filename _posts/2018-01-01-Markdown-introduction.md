@@ -10,27 +10,13 @@ sidebar:
 
 ## What is markdown?
 >Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.[8] Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
 ## Example
 
 Note that there is also a [Cheatsheet specific to Markdown Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) if that&#39;s what you&#39;re looking for. You can also check out [more Markdown tools](https://github.com/adam-p/markdown-here/wiki/Other-Markdown-Tools).
 
-**Table of Contents**
 
- - [Headers](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
- - [Emphasis](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis)
- - [Lists](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
- - [Links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
- - [Images](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
- - [Code and Syntax Highlighting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
- - [Tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
- - [Blockquotes](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes)
- - [Inline HTML](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html)
- - [Horizontal Rule](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#hr)
- - [Line Breaks](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
-
-
-
-**Headers**
+## Headers
 
     # H1
     
@@ -56,15 +42,15 @@ Note that there is also a [Cheatsheet specific to Markdown Here](https://github.
 
 # H1
 
-**H2**
+## H2
 
-**H3**
+### H3
 
-**H4**
+#### H4
 
-**H5**
+##### H5
 
-**H6**
+###### H6
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -77,7 +63,7 @@ Alternatively, for H1 and H2, an underline-ish style:
 ----------
 
 
-**Emphasis**
+## Emphasis
 
     Emphasis, aka italics, with *asterisks* or _underscores_.
     
@@ -97,7 +83,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Strikethrough uses two tildes.
 
-**Lists**
+## Lists
 
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
     
@@ -148,7 +134,7 @@ Note that this line is separate, but within the same paragraph.⋅⋅
 
 
 
-**Links**
+## Links
 
 There are two ways to create links.
 
@@ -194,7 +180,7 @@ URLs and URLs in angle brackets will automatically get turned into links. [http:
 
 Some text to show that the reference links can follow later.
 
-**Images**
+## Images
 
     Here's our logo (hover to see the title text):
     
@@ -216,7 +202,7 @@ Reference-style:  ![此处输入图片的描述][3]
 
 
 
-**Code and Syntax Highlighting**
+## Code and Syntax Highlighting
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn&#39;t. However, many renderers -- like Github&#39;s and _Markdown Here_ -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. _Markdown Here_ supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
@@ -250,7 +236,7 @@ Blocks of code are either fenced by lines with three back-ticks ```, or are inde
 
 
 
-**Tables**
+## Tables
 
 Tables aren&#39;t part of the core Markdown spec, but they are part of GFM and _Markdown Here_supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
 
@@ -297,7 +283,7 @@ There must be at least 3 dashes separating each header cell. The outer pipes (|)
 
 
 
-**Blockquotes**
+## Blockquotes
 
     > Blockquotes are very handy in email to emulate reply text.
     > This line is part of the same quote.
@@ -312,7 +298,7 @@ Quote break.
 
 >This is a very long line that will still be quoted properly when it wraps. Oh boy let&#39;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_  **Markdown**  into a blockquote.
 
-**Inline HTML**
+## Inline HTML
 
 You can also use raw HTML in your Markdown, and it&#39;ll mostly work pretty well.
 
@@ -333,7 +319,7 @@ _Markdown in HTML_
 Does \*not\* work \*\*very\*\* well. Use HTML _tags_.
 
 
-**Horizontal Rule**
+## Horizontal Rule
     
     Three or more...
     
@@ -364,7 +350,7 @@ _____________
 Underscores
 
 
-**Line Breaks**
+## Line Breaks
 
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit \&lt;Enter\&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You&#39;ll soon learn to get what you want. &quot;Markdown Toggle&quot; is your friend.
 
