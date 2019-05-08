@@ -1,5 +1,6 @@
 ---
 title: "Collections"
+key: Collections
 tags: [content_types]
 keywords: groups, api, structure
 last_updated: July 3, 2016
