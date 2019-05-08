@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: page
 titles:
   en      : &EN       Home
   en-GB   : *EN
@@ -31,5 +31,20 @@ articles:
 <script>
   {%- include scripts/home.js -%}
 </script>
+
+
+
+<div class="box"><a href="/4steps.html"><img src="/assets/startup.png" ></a>
+  <a href="/4steps.html">4 Steps to get started</a></div>
+<div class="box"><a href="/Markdown-introduction.html"><img src="/assets/markdown.png" ></a>
+  <a href="/4steps.html">Markdown introduction</a></div>
+<div class="box"><a href="/HTML-introduction.html"><img src="/assets/htmlcss.png" ></a>
+  <a href="/HTML-introduction.html">HTML, CSS, JavaScript</a></div>
+<div class="box"><a href="/authoring.html"><img src="/assets/advanced.png" ></a>
+  <a href="/authoring.html">Advanced-course for Jekyll</a></div>
+<div class="box"><a href="/mydoc-troubleshooting.html"><img src="/assets/shooting.png" ></a>
+  <a href="/mydoc-troubleshooting.html">Troubleshooting</a></div>
+
+<style>.box{float:left;width:280px;margin:2px;font-size: 18px;color: black;}.box.img{width:100%}</style>
 
 {{ content }}
